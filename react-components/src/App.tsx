@@ -5,7 +5,7 @@ import { ConfigProvider } from 'antd';
 // Import Ant Design's CSS reset for consistent styling
 import 'antd/dist/reset.css'; // Import Ant Design styles
 // Import the main CRUD example page/component
-import CrudExample from './pages/CrudExample.tsx';
+import CrudExample from './assets/pages/CrudExample.tsx';
 
 /**
  * Main App component
