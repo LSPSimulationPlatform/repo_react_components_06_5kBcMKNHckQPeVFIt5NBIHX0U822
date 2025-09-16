@@ -31,8 +31,8 @@ const Cv = () => {
             )}
           </div>
           <div className={style.primaryInfo}>
-            <h1>Ali Shukur</h1>
-            <p>Mechanical Engineer Student - Baku Engineering University</p>
+            <h2>Ali Shukur</h2>
+            <p className={style.primaryParagraph}>Mechanical Engineer Student - Baku Engineering University</p>
           </div>
 <div className={style.links}>
         <p>📍 Sumgait, Azerbaijan</p>
@@ -50,9 +50,49 @@ const Cv = () => {
         <ProgressBar></ProgressBar>
       </div>
       <div className={style.languages}>
+        <h2>Languages</h2>
+        <div className={style.minorPartLang}>
+          <p>Azerbaijani</p> <p>Native</p>
+        </div>
+        <div className={style.minorPartLang}>
+          <p>English</p> <p>Professional</p>
+        </div>
+        <div className={style.minorPartLang}>
+          <p>Spanish</p> <p>Beginner</p>
+        </div>
+      </div>
+      <div className={style.education}>
+        <label className={style.educationHead}>Education &rarr; </label>
+        <p className={style.educationParagraph}>Baku Engineering University -- Mechanical Engineering (ENG) </p>
       </div>
         </div>
-        <div className={style.right}></div>
+        <div className={style.right}>
+          <div className={style.profile}>
+            <div className={style.profileHead}>
+            <h2>Profile</h2>
+            <button className={style.profileButton} disabled>Open to Work</button>
+            </div>
+            <div className={style.profileParagraph}><p>I am an engineer</p>
+            </div>
+          </div>
+            <div className={style.experience}>
+              <div className={style.experienceHead}>
+                <h2>Experience</h2> <p className={style.experienceHeadParagraph}>Most Recent First</p>
+              </div>
+              <div className={style.experienceParagraph}>
+                <div className={style.experienceParagraphParts}>
+                  <h4>Front End Developer - KitGid</h4>
+                  <p className={style.date}>July 2025 - Still Continuing</p>
+                  <p className={style.paragraph}>Worked as a UI designer.</p>
+                </div>
+                <div className={style.experienceParagraphParts}>
+                  <h4>BackEnd Developer - Kit Gid</h4>
+                  <p className={style.date}>Januray 2025 - June 2025</p>
+                  <p className={style.paragraph}>Created the whole BackEnd</p>
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
     </>
   );

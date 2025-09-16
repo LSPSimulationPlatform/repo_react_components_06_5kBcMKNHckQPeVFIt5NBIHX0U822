@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main{
@@ -10,20 +11,12 @@
     height: auto;
 }
 .main .left{
-    width: 30%;
+    width: 35%;
     height: 100vh;
     display:flex;
     background-color: white;
     flex-direction: column;
     padding: 20px;
-}
-.main .right{
-    width: 70%;
-    height: 100vh;
-    display:flex;
-    background-color: lightblue;
-    justify-content: center;
-    align-items: center;
 }
 img{
     width: 30%;
@@ -37,14 +30,18 @@ img{
     padding: 10px;
     border-radius: 10px;
 }
+.main .left .primaryInfo .primaryParagraph{
+    margin-top: 10px;
+}
 .main .left .upload{
     width: 100%;
     background-color: rgb(236, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
 }
 .main .left .links{
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
     background-color: rgb(236, 235, 235);
@@ -60,4 +57,100 @@ img{
     background-color: rgb(236, 235, 235);
     padding: 10px;
     border-radius: 10px;
+}
+.main .left .languages{
+    width: 100%;
+    background-color: rgb(236, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.main .left .languages .minorPartLang{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main .left .education{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.main .left .education .educationHead{
+    color: rgb(153, 153, 153);
+}
+.main .left .education .educationParagraph{
+    color: rgb(153, 153, 153);
+    margin-top: 10px;
+}
+.main .right{
+    width: 65%;
+    padding: 10px;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .right .profile{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(236, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.main .right .profile .profileHead{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+.main .right .profile .profileParagraph{
+    width: 100%;
+    padding: 7px;
+
+}
+.main .right .profile .profileHead .profileButton{
+    background-color: aliceblue;
+    padding: 7px;
+    border-radius: 10px;
+    color: black;
+}
+.main .right .experience{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(236, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.main .right .experience .experienceHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .right .experience .experienceHead .experienceHeadParagraph{
+    color: rgb(126, 126, 126);
+}
+.main .right .experience .experienceParagraph{
+    padding: 10px;
+}
+.main .right .experience .experienceParagraph .experienceParagraphParts{
+    padding: 10px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.main .right .experience .experienceParagraph .experienceParagraphParts .date{
+    margin-top: 10px;
+    color: rgb(132, 132, 132);
+}
+.main .right .experience .experienceParagraph .experienceParagraphParts .paragraph {
+    margin-top: 10px;
 }

@@ -3,7 +3,7 @@ import { Flex, Progress } from 'antd';
 
 const ProgressBar: React.FC = () => (
   <Flex gap="small" vertical>
-    <h1><strong>Skills</strong></h1>
+    <h2><strong>Skills</strong></h2>
     <label>HTML</label>
     <Progress percent={30} status='active' />
     <label>Physics</label>
