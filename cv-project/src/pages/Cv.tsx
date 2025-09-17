@@ -92,6 +92,21 @@ const Cv = () => {
                 </div>
               </div>
             </div>
+            <div className={style.projects}>
+              <div className={style.projectsHead}>
+              <h2>Selected Projects</h2><p className={style.paragraph}>Links & Short Descriptions</p>
+              </div>
+              <div className={style.projectsParagraph}>
+                <div className={style.parts}>
+                  <h4>Project #1</h4><br />
+                  <p>React Components</p>
+                </div>
+                <div className={style.parts}>
+                  <h4>Project #2</h4><br />
+                  <p>React Components</p>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </>

@@ -154,3 +154,30 @@ img{
 .main .right .experience .experienceParagraph .experienceParagraphParts .paragraph {
     margin-top: 10px;
 }
+.main .right .projects{
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(236, 235, 235);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.main .right .projects .projectsHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .right .projects .projectsHead .paragraph{
+    color: rgb(126, 126, 126);
+    justify-content: space-between;
+}
+.main .right .projects .projectsParagraph{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: space-between;
+}
