@@ -1,0 +1,46 @@
+
+
+.con{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+img{
+    width: 236px;
+    height: 40px;
+}
+.navBar ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.btnCon{
+    display: flex;
+    gap: 20px;
+
+}
+.btnCon button{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.dp{
+    background-color: #5794F0;
+    color: white;
+}
+.up{
+    background-color: #FCBD06;
+    color: #fff;
+
+}

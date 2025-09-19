@@ -1,10 +1,11 @@
-import { useState } from "react";
-import style from './mainPage.module.css';
-
+import style from '../css.modules/mainPage.module.css';
+import NavigationBar from "../components/NavigationBar";
 
 const MainPage = () => {
     return (
-        <h1>hello</h1>
+        <div className={style.main}>
+            <div><NavigationBar/></div>
+        </div>
     );
 };
 
