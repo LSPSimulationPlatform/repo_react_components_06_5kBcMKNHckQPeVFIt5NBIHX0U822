@@ -2,3 +2,50 @@
     width: 100%;
     height: 100%;
 }
+.main .con1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.main .con1 .contactUs{
+    width: 140%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+.main .con1 .contactUs .head{
+    font-weight: 400;
+    font-size: 28px;
+    font-style: bold;
+    padding: 0px 100px;
+    line-height: 42px;
+    vertical-align: middle;
+    color: #5D5D5D;
+}
+.main .con1 .contactUs .paragraph{
+    font-weight: 400;
+    font-style: regular;
+    font-size: 22px;
+    line-height: 100%;
+    vertical-align: middle;
+    color: #5D5D5D;
+    padding: 20px 120px;
+}
+.main .con1 .contactUs .contactUsBtn {
+    width: 175px;
+    height: 48px;
+    margin-top: 100px;
+    margin-right: 420px;
+    border-radius: 10px;
+    background-color: #5794F0;
+    padding: 12px;
+    color: white;
+}
+.main .con1 .image1 .image{
+    width: 100%;
+    height: auto;
+}

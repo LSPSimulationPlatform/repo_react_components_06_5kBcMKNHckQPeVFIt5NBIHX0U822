@@ -4,7 +4,7 @@ const NavigationBar = () => {
     return (
        <>
        <div className={style.con}>
-        <img src="../../logo.png" alt="" />
+        <img src="../images/logo.png" alt="" />
         <div className={style.navBar}>
             <ul>
                 <li>
@@ -29,7 +29,7 @@ const NavigationBar = () => {
             <button className={style.up}>Upcoming classes</button>
         </div>
         <div className={style.log}>
-            <p>Login</p>
+            <a href='/'>Login ➜]</a>
         </div>
        </div>
        </>
